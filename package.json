@@ -1,5 +1,6 @@
 {
-  "name": "trvlapp-w-yarn",
+  "homepage": "/",
+  "name": "travelyarn",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,6 +9,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.7.1",
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "gh-pages": "^6.2.0",
     "react": "18",
     "react-dom": "18",
     "react-router-dom": "6.15.0",
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
