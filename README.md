@@ -12,3 +12,6 @@ This app aims to enhance the travel experience by making it easy for users to st
 
 ## Live Demo  
 Check out the deployed project: [Travel Website](https://travelyarn.vercel.app)
+
+npm run build
+npm start
